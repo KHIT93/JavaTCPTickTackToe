@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.VBox?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UI.Controller">
+   <VBox prefHeight="800.0" prefWidth="600.0">
+      <children>
+          <GridPane fx:id="layout" />
+          <TextArea fx:id="logarea" prefHeight="100.0" prefWidth="600.0" text="Output here..." disable="true" />
+      </children>
+   </VBox>
+</GridPane>
